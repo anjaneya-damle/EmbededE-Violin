@@ -48,23 +48,7 @@ The Python receiver listens on UDP port 5005 and performs:
 - Sustain timeout handling
 - Break-state enforcement
 
-Reference implementation: :contentReference[oaicite:0]{index=0}
-
-### MIDI Mapping Logic
-
-Base string messages:
-- `Sa`
-- `Pa`
-- `LPa`
-
-Pad-modified pitch mapping example:
-
-| String | Pad A | Pad B | Pad C |
-|--------|-------|-------|-------|
-| Sa     | Re    | Ga    | Ma    |
-| Pa     | Da    | Ni    | Upper Sa |
-| LPa    | LDa   | LNi   | LSa |
-
+  
 The script:
 - Sends `note_on` only on pitch change
 - Enforces sustain timeout (`NOTE_SUSTAIN_TIMEOUT_SECONDS`)
