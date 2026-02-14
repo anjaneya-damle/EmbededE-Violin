@@ -4,6 +4,9 @@ A distributed embedded system that emulates core violin performance mechanics â€
 
 The system is architected as a real-time hardwareâ€“software pipeline bridging ESP32 microcontrollers and a DAW via MIDI.
 
+
+<video src="https://github.com/anjaneya-damle/EmbededE-Violin/blob/main/DemoViolin.mp4" controls width="100%"></video>
+
 ---
 
 ## System Architecture
